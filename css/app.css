@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700);
+
+body {
+  font-family: "Arvo", Helvetica, Roboto, Arial, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Arvo", Helvetica, Roboto, Arial, sans-serif;
+}
+
+a {
+    color: #FF6600;
+  }
+
+  a:hover {
+      color: #FF6600;
+    }
+
+    a:visited {
+        color: #FF6600;
+      }
+
+
+#bgpic {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background: url(../images/mothersday.jpg) no-repeat;
+        background-size: cover;
+    }
+    video#bgvid {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background: url(../images/loving-caucasian-mom-holding-d.jpg) no-repeat;
+        background-size: cover;
+    }
+    video#bgvidf {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background: url(../images/wandering-bee-flowers-flower.jpg) no-repeat;
+        background-size: cover;
+    }
+    .site-title {
+      font-weight: 800;
+      text-transform: uppercase;
+      color: #00EBCA; }
+
+      .site-title-alt {
+        font-weight: 800;
+        text-transform: uppercase;
+        color: #3e3e3f;
+      }
+
+    @media screen and (max-device-width: 800px) {
+
+        #bgvid {
+            display: none;
+        }
+
+    }
+    @media screen and (max-width: 0em), screen and (min-width: 40em) {
+      .show-for-small-only {
+        display: none !important; } }
